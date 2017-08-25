@@ -4,6 +4,20 @@
   margin: 0;
   padding: 0;
 }
+html,body {
+  font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+  color: #333;
+}
 ul,li {
   list-style-type: none;
+}
+a, a:link {
+  color: #222;
+  text-decoration: none;
+}
+.lf {
+  float: left;
+}
+.rf {
+  float: right;
 }
