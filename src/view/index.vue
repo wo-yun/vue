@@ -7,6 +7,8 @@
 </template>
 
 <script type="text/ecmascript-6">
+  import util from '../router/index'
+
   export default {
     data () {
       return {
@@ -15,7 +17,11 @@
     },
     methods: {
       jump (index) {
-        alert(index)
+        switch (index) {
+          case 0:
+            util.go2("/home");
+            break;
+        }
       }
     }
   }
