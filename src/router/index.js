@@ -17,9 +17,9 @@ export default new Router({
       component: require('@/view/index')
     },
     {
-      path: '/home',
-      name: 'home',
-      component: require('@/view/home')
+      path: '/aaa',
+      name: 'aaa',
+      component: require('@/view/aaa')
     },
   ]
 })

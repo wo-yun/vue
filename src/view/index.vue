@@ -7,7 +7,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import util from '../router/index'
+  import util from '../util/index'
 
   export default {
     data () {
@@ -19,7 +19,7 @@
       jump (index) {
         switch (index) {
           case 0:
-            util.go2("/home");
+            util.go2("/aaa");
             break;
         }
       }
@@ -27,18 +27,20 @@
   }
 </script>
 
-<style>
-  #index li {
-    min-width: 100px;
-    line-height: 36px;
-    border: 1px solid #0C8EF1;
-    font-size: 16px;
-    color: #fff;
-    background: #0C8EF1;
-    border-radius: 4px;
-    margin: 3px 5px;
-    text-align: center;
-    cursor: pointer;
-    padding: 0 10px;
+<style lang="stylus" rel="stylesheet/stylus">
+  #index {
+    li {
+      min-width: 100px;
+      line-height: 36px;
+      border: 1px solid #0C8EF1;
+      font-size: 16px;
+      color: #fff;
+      background: #0C8EF1;
+      border-radius: 4px;
+      margin: 3px 5px;
+      text-align: center;
+      cursor: pointer;
+      padding: 0 10px;
+    }
   }
 </style>
