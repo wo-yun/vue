@@ -12,7 +12,7 @@
   export default {
     data () {
       return {
-        list: ['小写金额转大写金额', 'bbb', 'ccc', 'ddddddddddddddddddddddddd']
+        list: ['小写金额转大写金额', 'vue的非prop特性', 'ccc', 'ddddddddddddddddddddddddd']
       }
     },
     methods: {
@@ -20,6 +20,9 @@
         switch (index) {
           case 0:
             util.go2("/aaa");
+            break;
+          case 1:
+            util.go2("/bbb");
             break;
         }
       }

@@ -12,14 +12,19 @@ export default new Router({
     //   component: Hello
     // },
     {
-      path: '/',
+      path: '',
       name: 'index',
-      component: require('@/view/index')
+      component: require('@view/index')
     },
     {
       path: '/aaa',
       name: 'aaa',
-      component: require('@/view/aaa')
+      component: require('@view/aaa')
+    },
+    {
+      path: '/bbb',
+      name: 'bbb',
+      component: require('@view/bbb')
     },
   ]
 })
